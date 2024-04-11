@@ -13,6 +13,7 @@ def get_dimension(in_data):
     
     currData = in_data.readline()
     currData = currData.strip()
+    #currData reads in the first line which is intended to be the size of the spiral.
     '''currData reads in the first line which is intended to be the size of the spiral.
     The read in data is then stripped of all white space that may have been inckuded within the string'''
 
